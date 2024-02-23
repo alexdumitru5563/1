@@ -14,7 +14,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '6723144f-789d-48e0-b766-e691680c0588'
-  imageRepository: 'pizzaplaceald'
+  imageRepository: 'pizzaplaceALD'
   containerRegistry: 'pizzaplaceald.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/IdentityService/Dockerfile'
   tag: '$(Build.BuildId)'
