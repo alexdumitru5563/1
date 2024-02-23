@@ -16,7 +16,7 @@ variables:
   dockerRegistryServiceConnection: '6723144f-789d-48e0-b766-e691680c0588'
   imageRepository: 'pizzaplaceALD'
   containerRegistry: 'pizzaplaceald.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/IdentityService/Dockerfile'
+  dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
