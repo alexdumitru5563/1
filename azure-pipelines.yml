@@ -5,6 +5,9 @@
 trigger:
 - main
 
+pool:
+  'DevOps-Agents-VM'
+
 resources:
 - repo: self
 
