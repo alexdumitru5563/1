@@ -6,7 +6,7 @@ trigger:
 - none
 
 pool: 
-  name: 'DevOps-Agents-VM'
+  name: DevOps-Agents-VM
 
 resources:
 - repo: self
