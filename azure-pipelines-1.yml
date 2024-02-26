@@ -3,10 +3,9 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- none
+- main
 
-pool:
-- "DevOps-Agents-VM"
+pool: "DevOps-Agents-VM"
 
 resources:
 - repo: self
