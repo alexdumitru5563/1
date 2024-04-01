@@ -1,0 +1,25 @@
+#access token
+#.net restore build 
+
+name: IdentitySvc Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  IdentityBuild:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout IdentitySvc Repository
+        uses: actions/checkout@v2
+        with:
+          repository: alexdumitru5563/1
+          ref: main
+      
+      - name: Run IdentitySvc Build
+        run: |
+          cd IdentityService
+          dotnet build
+        working-directory: IdentityService
