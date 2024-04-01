@@ -1,9 +1,10 @@
 name: test1
+
 on: push
+
 jobs:
   my-job:
     runs-on: self-hosted
     steps:
-      - name: step1
-        run: echo 3+3+4
- 
+      - name: my-step
+        run: echo $((3 + 3 + 3))
