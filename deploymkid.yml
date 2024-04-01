@@ -1,4 +1,4 @@
-name: Build and Deploy IdentityService
+name: containerize id serv
 
 jobs:
   build:
