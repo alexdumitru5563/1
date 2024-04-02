@@ -1,5 +1,9 @@
 name: Build and Deploy IdentityService
+on:
+  branches:
+    - main
 
+    
 jobs:
   build:
     runs-on: self-hosted
