@@ -1,7 +1,7 @@
 name: Build and Deploy IdentityService
 on:
-  branches:
-    - main
+  workflow_dispatch:
+    
 
     
 jobs:
